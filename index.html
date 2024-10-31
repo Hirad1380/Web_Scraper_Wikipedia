@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Read CSV files</title>
+</head>
+<body>
+
+    <div id="field" class="field-group" style="display: block;">
+        <div class="container">
+            <input type="file" id="file" class="file-field" multiple name="file[]" accept=".csv">
+            <label for="file" class="file-label">
+            <figure>
+                <i class="fa fa-upload"></i>
+            </figure>
+            <span>Choose a file&hellip;</span>
+        </label>
+        </div>
+    </div>
+
+
+    <div class="main1" id="main" style="display: none;">
+        <h1 id="search_title">Search</h1>
+        <input type="text" id="search-input" placeholder="Search.....">
+    </div>
+
+    
+    <div id="wrapper">
+        <div id="cont_tbl" style="display: none;">
+            <table id="table"></table>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
