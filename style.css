@@ -1,0 +1,120 @@
+body{
+    background-color: rgb(6, 41, 60);
+}
+.field-group{
+    margin-top: 30px;
+    width: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.container{
+    padding: 70px;
+    background-color: #DDE6ED;
+    border-radius: 15px;
+
+}
+.container:hover{
+    background-color: #c5fff895;
+    cursor: pointer;
+    transition: 1s ease-in-out;
+}
+.file-field{
+    width: 0;
+    height: 0;
+    opacity: 0;
+    z-index: -1;
+}
+.file-label{
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1.4em;
+    font-weight: bold;
+    color: #265073;
+    cursor: pointer;
+}
+.file-label figure{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: #265073;
+    margin: 0 auto 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.file-label i{
+    font-size: 2em;
+    color: #ffffff;
+}
+.file-field:focus + .file-label,
+.file-label:hover{
+    color: #222831;
+}
+.file-field:focus + .file-label figure,
+.file-label:hover figure{
+    background: #222831;
+}
+#search_title{
+    margin-top: 40px;
+    font-size: 70px;
+    color: #9DB2BF;
+    animation: txt_shadow 1s ease infinite alternate-reverse;
+    text-align: center;
+}
+@keyframes txt_shadow{
+    from {
+        text-shadow: 0 0 20px #222831;
+    }
+    to {
+        text-shadow: 0 0 30px #32414c, 0 0 10px #DDE6ED;
+    }
+}
+th, td {
+    border: 3px solid #DDE6ED;
+    text-align: center;
+    padding: 8px;
+    background-color: #9DB2BF;
+}
+td {
+    color: #32414c;
+    font-weight: bold;
+}
+#search-input{
+    width: 500px;
+    height: 32px;
+    border-radius: 10px;
+    margin-bottom: 100px;
+    margin-top: 8px;
+    padding: 5px 20px;
+    font-weight: bold;
+}
+#search-input:hover{
+    box-shadow: 1px 1px 8px 1px #dcdcdca1;
+}
+#search-input:focus-within{
+    box-shadow: 1px 1px 8px 1px #dcdcdca1;
+}
+table{
+    border-collapse: collapse;
+    display: block;
+    height: 350px;
+}
+.main1{
+    display: block;
+    margin-bottom: 8px;
+    text-align: center;
+}
+#cont_tbl{
+    display: block;
+}
+.highlight{
+    color: #000;
+    background-color: #ff0000;
+}
+#wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
