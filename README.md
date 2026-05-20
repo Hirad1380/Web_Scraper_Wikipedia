@@ -163,5 +163,5 @@ python wikipedia.py
 **Hirad Bayat**  
 M.Sc. Applied Computer Science — University of Duisburg-Essen  
 📧 Bayathirad7@gmail.com  
-🔗 LinkedIn: [Hirad Bayat](https://www.linkedin.com/in/hirad-bayat-911480383)  
+🔗 LinkedIn: [Hirad Bayat](https://www.linkedin.com/in/hirad-bayat)  
 🐙 GitHub: [Hirad1380](https://github.com/Hirad1380)
